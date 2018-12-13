@@ -16,6 +16,12 @@ import { ArtistaComponent } from './components/artista/artista.component';
 
 import { ROUTES } from './app.routes';
 
+// Pipes
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetasComponent } from './compononent/tarjetas/tarjetas.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
+
 
 @NgModule({
   declarations: [
@@ -24,6 +30,10 @@ import { ROUTES } from './app.routes';
     ArtistaComponent,
     SearchComponent,
     NavbarComponent,
+    NoimagePipe,
+    DomseguroPipe,
+    TarjetasComponent,
+    LoadingComponent,
 
   ],
   imports: [
